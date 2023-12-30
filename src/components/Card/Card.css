@@ -1,0 +1,33 @@
+.card {
+    width: 300px;
+    height: 300px;
+    padding: 40px 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(240, 110, 4, 0.872);
+    align-items: center;
+}
+
+#desc {
+    padding: 20px 0px;
+}
+
+.card > button {
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    width: 90px;
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.card > button:hover {
+     background-color: white;
+     color: orange;
+     border: 2px solid orange;
+}
